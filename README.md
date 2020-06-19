@@ -1,6 +1,6 @@
 # Boxing Headgear Impact Force Monitor
  
-! [Image] (https://github.com/meronrudy/Boxing/blob/master/1a.jpg)
+![Image] (https://github.com/meronrudy/Boxing/blob/master/1a.jpg)
 
 # Intro
 Project is an impact force monitor that I put inside of a boxing headgear.
