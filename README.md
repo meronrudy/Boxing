@@ -3,7 +3,7 @@
 ![Image](https://github.com/meronrudy/Boxing/blob/master/1a.jpg)
 
 # Intro
-Project is an impact force monitor that I put inside of a boxing headgear.
+Project is an impact force monitor that I attached to a boxing headgear.
 In addition to collecting impact data, if the hardware detects an impact deemed as too high, it turns on red LED.
 
 Initial goals of the project were to:
@@ -16,7 +16,7 @@ Initial goals of the project were to:
 # Hardware
 Project uses a Raspberry Pi Zero Wireless; chosen because of its small size, that it can run off a battery pack but mostly because it is inexpensive.
 
-The main added piece of hardware is an accelerometer, which measures acceleration or changes in speed (which is actually what is dangerous for the human body).  The other added hardware component is a single red LED. 
+The main added piece of hardware is an accelerometer, which measures acceleration or changes in speed (which is what is dangerous for the human body).  The other added hardware component is a single red LED. 
 
 https://www.raspberrypi.org/products/raspberry-pi-zero/
 
