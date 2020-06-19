@@ -1,4 +1,4 @@
-# Boxing Headgear Impact Force Monitoring System
+# Boxing Headgear Impact Force Monitor
  
 
 # Intro
