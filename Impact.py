@@ -1,8 +1,4 @@
-# SHOUT OUTS
-
-# Jason Thalken, PHD ( Author of "Fight Like a Physicist" ) <http://www.jasonthalken.com/>
-# Jennifer Fox (aka jenfoxbot) Bicycle Helmet w/raspberry pi by jenfoxbot <jenfoxbot@gmail.com> Code is open-source, coffee/beerware
-# John Eric Goff, PHD ( Author of "The Physics of Krav Maga" and "Gold Medal Physics - The science of sports") <http://johnericgoff.blogspot.com/>
+# Youtube Video of it https://youtu.be/L9z6fRinnuc
 
 
 ####################################
@@ -191,3 +187,10 @@ if __name__ =="__main__":
     allData.close()
     alrtData.close()
     GPIO.cleanup()
+    
+    
+    # SHOUT OUTS
+
+# Jason Thalken, PHD ( Author of "Fight Like a Physicist" ) <http://www.jasonthalken.com/>
+# Jennifer Fox (aka jenfoxbot) Bicycle Helmet w/raspberry pi by jenfoxbot <jenfoxbot@gmail.com> Code is open-source, coffee/beerware
+# John Eric Goff, PHD ( Author of "The Physics of Krav Maga" and "Gold Medal Physics - The science of sports") <http://johnericgoff.blogspot.com/>
