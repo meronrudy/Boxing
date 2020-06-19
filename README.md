@@ -1,6 +1,6 @@
 # Boxing Headgear Impact Force Monitor
  
-
+![Happy Christmas](1.jpg)
 # Intro
 Project is an impact force monitor that I put inside of a boxing headgear.
 In addition to collecting impact data, if the hardware detects an impact deemed as too high, it turns on red LED.
