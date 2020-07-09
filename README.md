@@ -30,6 +30,7 @@ Impact force is a force that delivers a shock or high impact in a relatively sho
 # Functions
 
 ### Function to read the data from accelerometer
+
 def readAxes(addr):
     data0 = bus.read_byte_data(addr, OUT_X_L)
     data1 = bus.read_byte_data(addr, OUT_X_H)
