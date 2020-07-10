@@ -141,8 +141,8 @@ Impact force is a force that delivers a shock or high impact in a relatively sho
         #Short delay to prevent overclocking computer
         time.sleep(0.2)
 
-![Image](https://github.com/meronrudy/Boxing/blob/master/b.png)
-![Image](https://github.com/meronrudy/Boxing/blob/master/c.png)
+![Image](https://github.com/meronrudy/Boxing/blob/master/img/b.png)
+![Image](https://github.com/meronrudy/Boxing/blob/master/img/c.png)
 
 ### Run until there is a keyboard interrupt
     try:
