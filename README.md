@@ -27,7 +27,29 @@ https://www.raspberrypi.org/blog/how-to-use-an-led-with-raspberry-pi/
 # Impact Force
 Impact force is a force that delivers a shock or high impact in a relatively short period of time. It occurs when two entities collide. This collision is the result of one object falling onto, or slamming into, another object. This collision delivers a shock as energy that is transferred to the impacted entity(s). This energy is what causes damage to people who receive blows to the head; in the form of concussion.
 
-# Functions
+# Program
+
+### Setup/Parameters for the Raspberry pi + LIS331 accelerometer 
+    #Setup LIS331 address
+    addr = 0x19
+
+    #Setup the acceleration range
+    maxScale = 24
+
+    #Setup the LED GPIO pin
+    LED = 26
+    
+### Setup files to record the data to
+
+    #Open file to save all data
+    #(creates new file in same folder if none
+    #and appends to existing file)
+    allData = open("AllSensorData.txt", "a")
+
+    #Open file to save alert data
+    #(creates new file in same folder if none
+    #and appends to existing file)
+    alrtData = open("AlertData.txt", "a")
 
 ### Function to read the data from accelerometer
 
