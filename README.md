@@ -29,7 +29,9 @@ Impact force is a force that delivers a shock or high impact in a relatively sho
 
 # Program
 
-### Setup/Parameters for the Raspberry pi + LIS331 accelerometer 
+![Image](https://github.com/meronrudy/Boxing/blob/master/img/a.png)
+
+### Setup/Parameters for the Raspberry pi + LIS331 accelerometer
     #Setup LIS331 address
     addr = 0x19
 
@@ -38,7 +40,7 @@ Impact force is a force that delivers a shock or high impact in a relatively sho
 
     #Setup the LED GPIO pin
     LED = 26
-    
+
 ### Setup files to record the data to
 
     #Open file to save all data
@@ -138,3 +140,29 @@ Impact force is a force that delivers a shock or high impact in a relatively sho
 
         #Short delay to prevent overclocking computer
         time.sleep(0.2)
+
+![Image](https://github.com/meronrudy/Boxing/blob/master/b.png)
+![Image](https://github.com/meronrudy/Boxing/blob/master/c.png)
+
+### Run until there is a keyboard interrupt
+    try:
+        while True:
+            pass
+    except KeyboardInterrupt:
+        myprocess.kill()
+        allData.close()
+        alrtData.close()
+        GPIO.cleanup()
+
+
+if __name__ =="__main__":
+    main()
+    allData.close()
+    alrtData.close()
+    GPIO.cleanup()
+
+# SHOUT OUTS
+
+### Jason Thalken, PHD ( Author of "Fight Like a Physicist" ) <http://www.jasonthalken.com/>
+### Jennifer Fox (aka jenfoxbot) Bicycle Helmet w/raspberry pi by jenfoxbot <jenfoxbot@gmail.com> Code is open-source, coffee/beerware
+### John Eric Goff, PHD ( Author of "The Physics of Krav Maga" and "Gold Medal Physics - The science of sports") <http://johnericgoff.blogspot.com/>
