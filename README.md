@@ -156,12 +156,11 @@ Because of how impact force is related to acceleration we are using them interch
         alrtData.close()
         GPIO.cleanup()
 
-
-  if __name__ =="__main__":
-      main()
-      allData.close()
-      alrtData.close()
-      GPIO.cleanup()
+        if __name__ =="__main__":
+            main()
+            allData.close()
+            alrtData.close()
+            GPIO.cleanup()
 
 ### Shout outs
 
