@@ -1,6 +1,6 @@
 # Boxing Headgear Impact Force Monitor
 
-![Image](https://github.com/meronrudy/Boxing/blob/master/1a.jpg)
+![Image](https://github.com/meronrudy/Boxing/blob/master/img/1a.jpg)
 
 [Youtube video link](https://youtu.be/L9z6fRinnuc)
 # Intro
