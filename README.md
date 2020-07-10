@@ -27,8 +27,7 @@ https://www.raspberrypi.org/blog/how-to-use-an-led-with-raspberry-pi/
 # Impact Force
 Impact force is a force that delivers a shock or high impact in a relatively short period of time. It occurs when two entities collide. This collision is the result of one object falling onto, or slamming into, another object. This collision delivers a shock as energy that is transferred to the impacted entity(s). If you have a large acceleration or impact force; this energy is what causes damage to people who receive blows to the head; in the form of concussion.
 
-Because of how impact force is related to acceleration we are using them interchangeably.
-Essentially we are doing a bit of a ‘conversion’ of the values of the acceleration measured by the accelerometer. Converting that into a g-force as that is the measurement most commonly used when researching dangerous valuers of impact for the human body.
+Because of how impact force is related to acceleration we are using them interchangeably. Essentially we are doing a bit of a ‘conversion’ of the values of the acceleration measured by the accelerometer. Converting that into a g-force as that is the measurement most commonly used when researching dangerous values of impact for the human body.
 
 # Program
 
@@ -82,7 +81,7 @@ Essentially we are doing a bit of a ‘conversion’ of the values of the accele
     z = ~z
     return x, y, z
 
-### Function to calculate g-force from acceleration data
+### "Conversion" function to calculate g-force from acceleration data
     def convertToG(maxScale, xAccl, yAccl, zAccl):
         #Caclulate "g" force based on the scale set by user
         #Eqn: (2*range*reading)/totalBits (e.g. 48*reading/2^16)
@@ -158,14 +157,14 @@ Essentially we are doing a bit of a ‘conversion’ of the values of the accele
         GPIO.cleanup()
 
 
-if __name__ =="__main__":
-    main()
-    allData.close()
-    alrtData.close()
-    GPIO.cleanup()
+  if __name__ =="__main__":
+      main()
+      allData.close()
+      alrtData.close()
+      GPIO.cleanup()
 
-# SHOUT OUTS
+### Shout outs
 
-### Jason Thalken, PHD ( Author of "Fight Like a Physicist" ) <http://www.jasonthalken.com/>
-### Jennifer Fox (aka jenfoxbot) Bicycle Helmet w/raspberry pi by jenfoxbot <jenfoxbot@gmail.com> Code is open-source, coffee/beerware
-### John Eric Goff, PHD ( Author of "The Physics of Krav Maga" and "Gold Medal Physics - The science of sports") <http://johnericgoff.blogspot.com/>
+Jason Thalken, PHD ( Author of "Fight Like a Physicist" ) <http://www.jasonthalken.com/>
+Jennifer Fox (aka jenfoxbot) Bicycle Helmet w/raspberry pi by jenfoxbot <jenfoxbot@gmail.com> Code is open-source, coffee/beerware
+John Eric Goff, PHD ( Author of "The Physics of Krav Maga" and "Gold Medal Physics - The science of sports") <http://johnericgoff.blogspot.com/>
