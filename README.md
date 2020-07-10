@@ -15,7 +15,7 @@ Initial goals of the project were to:
 
 3)Embed circuitry/hardware within a competition Boxing headgear in order to collect data on and alert users of any impact forces above determined concussion safety thresholds.
 # Hardware
-Project uses a Raspberry Pi Zero Wireless; chosen because of its small size, that it can run off a battery pack but mostly because it is inexpensive.
+Project uses a Raspberry Pi Zero Wireless; chosen because of its small size, that it can run off a battery pack but mostly because it was inexpensive and grad school isn't... Ideally would have gone with a small re-chargeable or coin cell powered bluetooth sensor. (yostlabs.com and mbientlab.com both really good and ready to go options w/ API)
 
 The main added piece of hardware is an accelerometer, which measures acceleration or changes in speed (which is what is dangerous for the human body).  The other added hardware component is a single red LED.
 
